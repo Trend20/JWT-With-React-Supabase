@@ -20,6 +20,8 @@ const userSlice = createSlice({
     }
 })
 
+export const { logout, setToken} = userSlice.actions;
+export default userSlice.reducer;
 
 
 
